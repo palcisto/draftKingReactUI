@@ -18,9 +18,21 @@ html, body {
   margin: 0 auto;
 }
 
+.wrapper {
+  margin: 0 auto;
+}
+
+.main {
+  background: rgba(80, 80, 80, .2);
+}
+
 @media (min-width: $screen-sm-min) {
   .Layout {
     width: 100%;
+  }
+
+  .wrapper {
+    max-width: calc(1020rem / 16);
   }
 }
 
@@ -28,10 +40,18 @@ html, body {
   .Layout {
     width: 100%;
   }
+  
+  .wrapper {
+    max-width: calc(1020rem / 16);
+  }
 }
 
 @media (min-width: $screen-lg-min) {
   .Layout {
     width: 100%;
+  }
+  
+  .wrapper {
+    max-width: calc(1020rem / 16);
   }
 }

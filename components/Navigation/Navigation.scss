@@ -4,33 +4,38 @@
  * Copyright (c) Konstantin Tarkus (@koistya) | MIT license
  */
 
-@import '../variables.scss';
+@import '../setup.scss';
 
-.Navigation {
-  background: #222;
-  border-top: 1px solid #bbb;
+.c-navigation {
   display: flex;
   flex-direction: row;
-  margin: 0 0 5em 0;
+  margin: 0;
   list-style: none;
   justify-content: flex-start;
-}
 
-.Navigation-item {
-  font-size: 16px;
-  line-height: 40px;
-  padding: 0 1em;
-}
-
-.Navigation-link {
-  padding: 0.5em 1em;
-  color: $white;
-  text-decoration: none;
-  text-transform: uppercase;
-  cursor: pointer;
-
-  &:hover {
-    border-bottom: 3px solid $brand-color;
-    color: $brand-color;
+  &__item {
+    font-size: 16px;
+    line-height: 1.1;
+    margin-right: 20px;
+    padding: 0;
   }
+
+  &__link {
+    color: $white;
+    cursor: pointer;
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 19px 0 10px;
+
+    &:hover {
+      color: $brand-color;
+    }
+  }
+}
+
+.c-navigation-item {
+}
+
+.c-navigation-link {
 }

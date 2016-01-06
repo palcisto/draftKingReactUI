@@ -10,21 +10,21 @@ import Link from '../Link';
 
 function Navigation() {
   return (
-    <ul className="Navigation" role="menu">
-      <li className="Navigation-item">
-        <a className="Navigation-link" href="/" onClick={Link.handleClick}>Lobby</a>
+    <ul className="c-navigation" role="menu">
+      <li className="c-navigation__item">
+        <a className="c-navigation__link" href="/" onClick={Link.handleClick}>Lobby</a>
       </li>
-      <li className="Navigation-item">
-        <a className="Navigation-link" href="/lineup" onClick={Link.handleClick}>My Lineups</a>
+      <li className="c-navigation__item">
+        <a className="c-navigation__link" href="/lineup" onClick={Link.handleClick}>My Lineups</a>
       </li>
-      <li className="Navigation-item">
-        <a className="Navigation-link" href="/mycontests" onClick={Link.handleClick}>My Contests</a>
+      <li className="c-navigation__item">
+        <a className="c-navigation__link" href="/mycontests" onClick={Link.handleClick}>My Contests</a>
       </li>
-      <li className="Navigation-item">
-        <a className="Navigation-link" href="/leagehub" onClick={Link.handleClick}>League Hub</a>
+      <li className="c-navigation__item">
+        <a className="c-navigation__link" href="/leagehub" onClick={Link.handleClick}>League Hub</a>
       </li>
-      <li className="Navigation-item">
-        <a className="Navigation-link" href="/promotions" onClick={Link.handleClick}>Promotions</a>
+      <li className="c-navigation__item">
+        <a className="c-navigation__link" href="/promotions" onClick={Link.handleClick}>Promotions</a>
       </li>
     </ul>
   );
