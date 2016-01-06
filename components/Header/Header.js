@@ -11,9 +11,11 @@ import Link from '../Link';
 
 function Header() {
   return (
-    <header>
-      <div className="Branding"><a href="/" onClick={Link.handleClick}></a></div>
-      <Navigation />
+    <header className="header">
+      <div className="header__inner">
+        <div className="branding"><a href="/" onClick={Link.handleClick}></a></div>
+        <Navigation />
+      </div>
     </header>
   );
 }
