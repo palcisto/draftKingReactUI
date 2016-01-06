@@ -1,6 +1,7 @@
 {
   "extends": "airbnb",
   "globals": {
+    "webpackJsonp": true,
     "__DEV__": true
   },
   "rules": {
